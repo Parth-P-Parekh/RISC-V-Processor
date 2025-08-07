@@ -5,11 +5,11 @@ The Pipeline_top module is the top-level integration point that connects all the
 
 Included Modules:
 File Name	Description
-Fetch_Cycle.v	Implements the Instruction Fetch stage.
-Decode_Cyle.v	Implements the Instruction Decode stage.
-Execute_Cycle.v	Implements the Execute stage including ALU operations.
-Memory_Cycle.v	Implements the Memory access stage.
-Writeback_Cycle.v	Implements the Writeback stage.
+**Fetch_Cycle.v**	Implements the Instruction Fetch stage.
+**Decode_Cyle.v**	Implements the Instruction Decode stage.
+**Execute_Cycle.v**	Implements the Execute stage including ALU operations.
+**Memory_Cycle.v**	Implements the Memory access stage.
+**Writeback_Cycle.v**	Implements the Writeback stage.
 PC.v	Program Counter logic.
 PC_Adder.v	Adds 4 to PC (PC + 4 logic).
 Mux.v	General-purpose multiplexers used in pipeline.
